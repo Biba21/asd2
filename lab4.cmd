@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-053b0d53c279acc90 --count 1 --instance-type t2.micro --key-name real_lab2 --security-group-ids sg-051d1ca7920463f8c --subnet-id subnet-055dccf68492da902 --user-data file://scriptlab4.sh
